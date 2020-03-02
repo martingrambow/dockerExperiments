@@ -1,6 +1,13 @@
-Code and results reported in the papers "Is it Safe to Dockerize my Database Benchmark?" and "Dockerization Impacts in Database Performance Benchmarking"
+# Is it Safe to Dockerize my Database Benchmark?
 
-### Bibtex entries:
+Docker seems to be an attractive solution for cloud database benchmarking as it simplifies the setup process through pre-built images that are portable and simple to maintain. However, the usage of Docker for benchmarking is only valid if there is no effect on measurement results. This code and results evaluate indirect effects of dockerization on the results of database benchmarking. 
+
+If you use this software in a publication, please cite it as:
+
+### Text
+Martin Grambow, Jonathan Hasenburg, Tobias Pfandzelter, David Bermbach. **Is it Safe to Dockerize my Database Benchmark?**. In: Proceedings of the 34th ACM Symposium on Applied Computing, Posters Track (SAC 2019). ACM 2019.
+
+### BibTeX
 Paper:
 ````
 @inproceedings{paper_grambow_sac_dads,
@@ -21,3 +28,10 @@ Techreport:
 	year = {2018}
 }
 ````
+
+A full list of our [publications](https://www.mcc.tu-berlin.de/menue/forschung/publikationen/parameter/en/) and [prototypes](https://www.mcc.tu-berlin.de/menue/forschung/prototypes/parameter/en/) is available on our group website.
+
+## License
+
+The code in this repository is licensed under the terms of the [MIT](./LICENSE) license.
+
